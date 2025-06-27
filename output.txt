@@ -1,0 +1,48 @@
+Welcome To The Pattern Generator And Number Analyzer Python Program By 'Vishal Makwana'
+
+Select Any Option:
+
+1.Generate A Pattern 'Triangle'
+2.Analyze A Range Of Numbers 'even or odd'
+3.Exit
+
+Enter Your Choice:1
+Enter Numbers Of Rows:5
+...Your Pattern Is Generated Successfully...
+*
+* *
+* * *
+* * * *
+* * * * *
+
+Select Any Option:
+
+1.Generate A Pattern 'Triangle'
+2.Analyze A Range Of Numbers 'even or odd'
+3.Exit
+
+Enter Your Choice:2
+Enter The Start Range Number:10
+Enter The End Range Number:15
+
+...Even Or Odd Numbers Your Given Range...
+
+Number 10 Is Even
+Number 11 Is Odd
+Number 12 Is Even
+Number 13 Is Odd
+Number 14 Is Even
+Number 15 Is Odd
+Sum Of All Numbers From 10 To 15 Is: 75
+
+Select Any Option:
+
+1.Generate A Pattern 'Triangle'
+2.Analyze A Range Of Numbers 'even or odd'
+3.Exit
+
+Enter Your Choice:3
+
+Existing The Program,GoodBye!
+
+End Of Python Program
