@@ -6,40 +6,19 @@ Select Any Option:
 2.Analyze A Range Of Numbers 'even or odd'
 3.Exit
 
-Enter Your Choice:1     
-1.Right Angle Triangle
-2.Left Angle Triangle
+Enter Your Choice:1
+1.Left Angle Triangle
+2.Right Angle Triangle
 3.Full Triangle
 
 Choose Triangle Shape:
 1
 Enter Numbers Of Rows:5
 ...Your Pattern Is Generated Successfully...
-* 
-* * 
-* * * 
-* * * * 
-* * * * * 
-
-Select Any Option:
-
-1.Generate A Pattern 'Triangle'
-2.Analyze A Range Of Numbers 'even or odd'
-3.Exit
-
-Enter Your Choice:1
-1.Right Angle Triangle
-2.Left Angle Triangle
-3.Full Triangle
-
-Choose Triangle Shape:
-2
-Enter Numbers Of Rows:5
-...Your Pattern Is Generated Successfully...
-        *
-      * *
-    * * *
-  * * * *
+*
+* *
+* * *
+* * * *
 * * * * *
 
 Select Any Option:
@@ -49,8 +28,29 @@ Select Any Option:
 3.Exit
 
 Enter Your Choice:1
-1.Right Angle Triangle
-2.Left Angle Triangle
+1.Left Angle Triangle
+2.Right Angle Triangle
+3.Full Triangle
+
+Choose Triangle Shape:
+2
+Enter Numbers Of Rows:5
+...Your Pattern Is Generated Successfully...
+        * 
+      * *
+    * * * 
+  * * * * 
+* * * * *
+
+Select Any Option:
+
+1.Generate A Pattern 'Triangle'
+2.Analyze A Range Of Numbers 'even or odd'
+3.Exit
+
+Enter Your Choice:1
+1.Left Angle Triangle
+2.Right Angle Triangle
 3.Full Triangle
 
 Choose Triangle Shape:

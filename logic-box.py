@@ -19,8 +19,8 @@ while(True):
     match user_input:
         case 1 :
             #pattern generate logic using if else and nested loop
-            print("1.Right Angle Triangle")
-            print("2.Left Angle Triangle")
+            print("1.Left Angle Triangle")
+            print("2.Right Angle Triangle")
             print("3.Full Triangle")
             triangle_shape=int(input("\nChoose Triangle Shape:\n"))
             num_row=int(input("Enter Numbers Of Rows:"))
@@ -35,12 +35,13 @@ while(True):
             else:
                 print("...Your Pattern Is Generated Successfully...")
                 if triangle_shape==1:
-                
+                    #left angle triangle
                     for i in range(1,num_row+1):
                         for j in range(1,i+1):
                             print("*",end=" ")
                         print("")
                 elif triangle_shape==2:
+                    #right angle triangle
                     for i in range(1,num_row+1):
                         for j in range(1,6-i):
                             print(" ",end=" ")
@@ -49,6 +50,7 @@ while(True):
                         print("")
                 
                 else:
+                     #full triangle
                      for i in range(1,num_row+1):
                         for j in range(1,6-i):
                             print(" ",end="")
