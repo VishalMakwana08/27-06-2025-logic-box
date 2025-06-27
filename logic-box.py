@@ -19,19 +19,44 @@ while(True):
     match user_input:
         case 1 :
             #pattern generate logic using if else and nested loop
+            print("1.Right Angle Triangle")
+            print("2.Left Angle Triangle")
+            print("3.Full Triangle")
+            triangle_shape=int(input("\nChoose Triangle Shape:\n"))
             num_row=int(input("Enter Numbers Of Rows:"))
-            if(num_row<5 or num_row<0):
+            if(num_row<5 or num_row<0 or triangle_shape<0 or triangle_shape>3):
         
                 if(num_row<5 and num_row>0):
                    print("Dear User For Generate Perfect Triangle Pattern Wants Minimum 5 rows")
-                else:
+                elif num_row<0:
                     print("Dear User Negative Number Not Allowed Plz Enter Only Positive Number")
+                else:
+                    print("Invalid Option For Shape")
             else:
                 print("...Your Pattern Is Generated Successfully...")
-                for i in range(1,num_row+1):
-                    for j in range(1,i+1):
-                       print("*",end=" ")
-                    print("")                 
+                if triangle_shape==1:
+                
+                    for i in range(1,num_row+1):
+                        for j in range(1,i+1):
+                            print("*",end=" ")
+                        print("")
+                elif triangle_shape==2:
+                    for i in range(1,num_row+1):
+                        for j in range(1,6-i):
+                            print(" ",end=" ")
+                        for k in range(1,i+1):
+                            print("*",end=" ")
+                        print("")
+                
+                else:
+                     for i in range(1,num_row+1):
+                        for j in range(1,6-i):
+                            print(" ",end="")
+                        for k in range(1,i+1):
+                            print("*",end=" ")
+                        print("")
+            
+
         case 2 :
             #Number Analyzer Logic For Find Even Odd In Range Of Number And Sum Of All Number In Range
             start_range=int(input("Enter The Start Range Number:"))
